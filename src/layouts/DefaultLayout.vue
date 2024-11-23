@@ -4,18 +4,15 @@
     <main class="p-4">
       <HomePage />
     </main>
-    <Footer />
   </div>
 </template>
 
 <script>
-
-
-
 import HomePage from '@/pages/HomePage.vue'
+import Navbar from '@/components/Navbar.vue'
 
 export default {
-  name: "DefaultLayout",
-  components: { HomePage },
-};
+  name: 'DefaultLayout',
+  components: { Navbar, HomePage },
+}
 </script>
